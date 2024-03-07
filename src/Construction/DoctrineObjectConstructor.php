@@ -6,7 +6,8 @@ namespace JMS\Serializer\Construction;
 
 use Doctrine\ODM\PHPCR\DocumentManagerInterface;
 use Doctrine\ORM\EntityManagerInterface;
-use Doctrine\Persistence\ManagerRegistry;
+//use Doctrine\Persistence\ManagerRegistry;
+use Doctrine\Bundle\DoctrineBundle\Registry as ManagerRegistry;
 use JMS\Serializer\DeserializationContext;
 use JMS\Serializer\Exception\InvalidArgumentException;
 use JMS\Serializer\Exception\ObjectConstructionException;
